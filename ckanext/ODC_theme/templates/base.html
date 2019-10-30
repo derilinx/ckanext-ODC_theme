@@ -2,3 +2,8 @@
 
 {% block bodytag %} {{ super() }} class='odc' {% endblock %}
 
+{% block styles %}
+{{super()}}
+    <link rel="stylesheet" href="https://odc.odm-eu.staging.derilinx.com/wp-content/uploads/sites/2/maxmegamenu/style.css?ver=46046f">
+
+{% endblock %}
